@@ -31,9 +31,14 @@ menu {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    position: absolute;
+    right: 0;
+    width: 91vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 3px;
     padding-right: 15px;
-    background-color: #141414;
+    background-color: transparent;
 }
 
 a {
@@ -81,5 +86,15 @@ a:hover {
 iframe {
     width: 100%;
     height: 100%;
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+#lista {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 92vw;
+    height: 30px;
+    background-color: white;
 }
