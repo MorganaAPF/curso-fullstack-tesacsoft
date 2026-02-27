@@ -1,0 +1,168 @@
+/* Importa fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* variaveis */
+:root {
+    --Playfair: 'playfair Display', serif; /*fonte para titulos*/
+    --Quicksand: 'Quicksand', sans-serif; /*fonte padrao do site*/
+    --Roboto: 'Roboto', sans-serif; /*fonte alternativa*/
+    --dark:#3c393d; /*cor cinza escuro principal*/
+    --exDark: #2b2b2b; /*cor cinza mais escuro*/
+}
+
+/*Reset geral*/
+* {
+    padding: 0; /*Remove espacamento interno*/
+    margin: 0; /*Remove margem*/
+    font-family: var(--Quicksand); /*Tipo de fonte*/
+}
+
+/*corpo da pagina*/
+body {
+    line-height: 1.4; /*espacamento vertical entre as linhas*/
+    color: var(--dark) /*Cor padrão do texto*/
+}
+
+/*==========Header=========*/
+header {
+    min-height: 100vh; /*altura minima*/
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../imagens/banner-bg.jpg) center/cover no-repeat fixed;
+    display: flex; /*Usa o flex-box*/
+    flex-direction: column; /*coloca os itens em colunas*/
+    justify-content: stretch; /*esticar o conteudo*/
+}
+/*=====Barra de navegacao=====*/ 
+
+.barra_menu {
+    background: rgba(0,0,0,0.6);
+    padding: 1.2rem;
+}
+
+/* Container central */
+.container{
+    max-width: 1320px; /*Largura maxima*/
+    margin: 0 auto; /*centralizar horizontalmente*/
+    padding: 1.2rem;
+}
+
+.logotipo {
+    color: white;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--Quicksand);
+    letter-spacing: 1px;
+}
+
+.menu {
+    padding: 0.8rem 0.2rem 9; /* cima, direita, baixo, esquerda */
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+}
+
+.banner {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.titulo_banner {
+    font-size: 3rem;
+    font-family: var(--Playfair);
+    line-height: 1.2; 
+}
+
+.titulo_banner span {
+    font-family: var(--Playfair);
+    color: var(--dark);
+}
+
+.banner p {
+    pad: 1rem 0 2rem 0; /* Espaçamento interno */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    text-transform: capitalize; /* Colocar primeira letra maiúscula */
+    font-family: var(--Roboto);
+    font-weight: 300; /* Definir espessura da fonte */
+    word-spacing: 2px; /* Definir espaço entre as palavras */
+}
+
+.banner form {
+    background: #fff; /* Definir fundo branco */
+    border-radius: 2rem; /* Arredondar as bordas */
+    padding: 0.6rem 1rem; /* Espaçamento interno cima/baixo | esquerda/direita */
+    justify-content: space-between; /* Criar espaços entre os elementos */
+    display: flex; /* Ativar o flexbox para alinhar os elementos lado a lado */
+}
+
+.pesquisa {
+    font-size: 1.1rem;
+    width: 100%; /* Faz o input ocupar 100% da largura disponível */ 
+    outline: 0; /* Remove o contorno padrão ao clicar na input */
+    padding: 0.6 0;
+    border: none;
+}
+
+.botao_pesquisa {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.design {
+    padding: 4.5rem 0;
+}
+
+.titulo_sessao {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.titulo_sessao h2 {
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+}
+
+.titulo_sessao p {
+    padding: 0.6rem 0;
+    text-transform: uppercase;
+}
+
+.design_container {
+    margin: 2rem 0; /* Margem externa */
+    display: grid; /* Organizar os elementos em linhas e colunas */
+    grid-template-columns: repeat(3,1fr); /* Definir número de colunas e tamanho */
+    gap: 2rem; /* Espaço entre os itens do grid */
+}
+
+img {
+    width: 100%;
+}
+
+.design_item {
+    cursor: pointer;
+}
+
+.design_imagem {
+    position: relative;
+    overflow: hidden;
+}
+
+.design_imagem img {
+    transition: all 0.5s ease;
+}
+
+.design_item:hover img {
+    transform: scale(1.2);
+}
+
