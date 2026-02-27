@@ -1,20 +1,5 @@
-/* Crie um programa que peça a idade do utilizador. Se a idade for maior ou igual a 18, informe que a pessoa é "maior
-de idade". Caso contrário, informe que é "menor de idade". */
-
-import java.util.Scanner;
+/* Peça o valor de uma compra. Se o valor for superior a 100, o cliente ganha 10% de desconto. Caso contrário, paga o
+valor total. Mostre o valor final a pagar. */
 
 public class ex005 {
-    public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
-        int idade;
-
-        System.out.print("Digite sua idade: ");
-        idade = leitor.nextInt();
-
-        if (idade >= 18) {
-            System.out.println("Você é maior de idade.");
-        } else {
-            System.out.println("Você é menor de idade.");
-        }
-    }
 }

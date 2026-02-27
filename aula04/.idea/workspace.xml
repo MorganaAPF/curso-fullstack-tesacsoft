@@ -1,41 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32b61e6e-7a40-444d-b41e-37bd431e17ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../aula02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../curso-fullstack-tesacsoft.iml" afterDir="false" />
+    <list default="true" id="1c05690a-78e7-4e42-a9b9-139aa254a4b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../aula02/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula02/ex001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula02/ex004.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula02/ex005.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula02/java1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula02/out/production/aula02/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula02/out/production/aula02/ex001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula02/out/production/aula02/java1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/coraline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/coraline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/gato.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/gato.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/holder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/holder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/mulan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/mulan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/nemo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/filmes/nemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/coraline.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/coraline2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/fota.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/gato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/gato2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/logotipo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/mulan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/mulan2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/nemo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/imagens/nemo3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex004.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex005.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula04/aula04.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="3AFxnpz1Gp1WM48HCRbd6m18n3Y" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3AGD501gIC0A9WDOGhG3gPGP9I9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ex005.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -44,20 +67,6 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ex005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex005" />
-      <module name="aula04" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ex005" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,11 +76,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32b61e6e-7a40-444d-b41e-37bd431e17ee" name="Changes" comment="" />
-      <created>1772202294284</created>
+      <changelist id="1c05690a-78e7-4e42-a9b9-139aa254a4b7" name="Changes" comment="" />
+      <created>1772209831413</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772202294284</updated>
+      <updated>1772209831413</updated>
     </task>
     <servers />
   </component>

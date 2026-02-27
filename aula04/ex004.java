@@ -1,22 +1,21 @@
+/* Crie um sistema de login simples. Defina uma senha fixa no código (ex:123). Peça ao utilizador para digitar a
+senha. Se estiver correta, mostre "Acesso permitido", se errar, mostre "Acesso negado". */
+
 import java.util.Scanner;
 
-class ex004 {
+public class ex004 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        double nota1, nota2, media;
-        System.out.print("Digite a primeira nota: ");
-        nota1 = leitor.nextDouble();
-        System.out.print("Digite a segunda nota: ");
-        nota2 = leitor.nextDouble();
+        int senha, input;
+        senha = 1234;
 
-        media = ((nota1 + nota2) / 2);
+        System.out.print("Digite a senha: ");
+        input = leitor.nextInt();
 
-        System.out.println("Média = " + media);
-
-        if (media >= 10) {
-            System.out.println("Estudante aprovado");
+        if (input == senha) {
+            System.out.println("Acesso permitido!");
         } else {
-            System.out.println("Estudante reprovado");
+            System.out.println("Acesso negado!");
         }
     }
 }
