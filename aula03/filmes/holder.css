@@ -16,6 +16,10 @@ p {
     font-size: 2rem;
 }
 
+span {
+    color: #A81832;
+}
+
 main {
     display: flex;
     flex-flow: column wrap;
