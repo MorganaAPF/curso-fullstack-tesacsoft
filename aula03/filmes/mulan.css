@@ -23,10 +23,10 @@ main {
 }
 
 #cartaz {
-    background-image: url("imagens/nemo3.webp");
+    background-image: url("../imagens/mulan2.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center center;
     flex: auto;
 }
 

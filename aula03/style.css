@@ -32,9 +32,14 @@ nav img {
     width: 60px;
     height: 60px;
     padding-top: 15px;
+    cursor: pointer;
 }
 
-nav > button {
+nav img:hover {
+    scale: 1.22;
+}
+
+button {
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -104,7 +109,7 @@ menu {
     background-color: transparent;
 }
 
-a {
+menu > a {
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -113,7 +118,7 @@ a {
     transition: 0.2s;
 }
 
-a:hover {
+menu > a:hover {
     background-color: white;
     color: black;
 }
@@ -167,4 +172,9 @@ iframe {
     height: 130px;
     border-radius: 10px;
     margin-right: 30px;
+    transition: 0.2s;
+}
+
+#lista img:hover {
+    scale: 1.22;
 }
