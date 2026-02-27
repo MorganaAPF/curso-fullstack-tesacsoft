@@ -1,8 +1,16 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
+    font-family: "Inter", sans-serif;
+    color: white;
     margin: 0;
     padding: 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.7rem;
 }
 
 body {
@@ -18,6 +26,11 @@ main {
 }
 
 #detalhes {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    align-self: center;
+    height: 80%;
     width: 42%;
     background-color: #141414;
 }
