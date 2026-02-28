@@ -3,56 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
     <title>Mulan</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+       div#cartaz {
+            background-image: url("../imagens/mulan2.webp");
+            background-position: center center;
+        }
 
-        * {
-            font-family: "Inter", sans-serif;
-            color: white;
-            margin: 0;
-            padding: 0;
+        h1 {
+            padding-bottom: 4px;
         }
 
         p {
-            text-align: justify;
-            line-height: 1.7rem;
+            font-size: 1.08rem;
         }
 
-        body {
-            height: 100vh;
-            width: 100vw;
-        }
+        @media screen and (max-width: 768px) {
+            section#detalhes {
+                height: 55%;
+            }
 
-        main {
-            display: flex;
-            flex-flow: row nowrap;
-            width: 100vw;
-            height: 100vh;
-        }
+            h1 {
+                font-size: 1.6rem;  
+            }
 
-        #detalhes {
-            display: flex;
-            flex-flow: row wrap;
-            align-content: flex-start;
-            align-self: center;
-            height: 80%;
-            width: 42%;
-            background-color: #141414;
-        }
-
-        #cartaz {
-            background-image: url("../imagens/mulan2.webp");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            flex: auto;
-        }
-
-        #gradiente {
-            width: 75%;
-            height: 100%;
-            background-image: linear-gradient(to right, #141414, transparent);
+            p {
+                font-size: 0.9rem;
+                line-height: 1rem;
+            }
         }
     </style>
 </head>

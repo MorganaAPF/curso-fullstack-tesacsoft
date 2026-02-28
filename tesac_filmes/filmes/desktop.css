@@ -9,16 +9,18 @@
         align-items: center;
         align-content: center;
         width: 42%;
-        height: 80%;
+        height: 100%;
     }
     
     h1 {
+        font-size: 2rem;
         padding-bottom: 15px;
     }
 
     p {
+        font-size: 1.1rem;
         line-height: 1.7rem;
-        padding-bottom: 40px;
+        padding-bottom: 130px;
     }
     
     div#cartaz {
