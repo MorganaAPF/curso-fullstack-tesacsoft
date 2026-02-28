@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+div#cartaz {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: auto;
+    flex-flow: column-reverse nowrap;
+}
+
+div#gradiente {
+    width: 100%;
+    height: 75%;
+    background-image: linear-gradient(to top, #141414, transparent);
+}
+
+section#detalhes {
+    display: flex;
+    flex-flow: row wrap;
+    height: 47%;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 15px;
+    background-color: #141414;
+}  
+
+h1 {
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1rem;
+}
+        

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    main {
+        flex-flow: row nowrap;
+    }
+
+    section#detalhes {
+        align-items: center;
+        align-content: center;
+        width: 42%;
+        height: 80%;
+    }
+    
+    h1 {
+        padding-bottom: 15px;
+    }
+
+    p {
+        line-height: 1.7rem;
+        padding-bottom: 40px;
+    }
+    
+    div#cartaz {
+        flex-flow: row nowrap;
+    }
+
+    div#gradiente {
+        width: 75%;
+        height: 100%;
+        background-image: linear-gradient(to right, #141414, transparent);
+    }
+}
