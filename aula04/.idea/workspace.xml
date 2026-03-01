@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c05690a-78e7-4e42-a9b9-139aa254a4b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../aula02/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula02/ex001.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula02/ex004.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula02/ex005.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula02/java1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula02/out/production/aula02/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula02/out/production/aula02/ex001.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula02/out/production/aula02/java1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/coraline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/coraline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/gato.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/gato.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/holder.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/holder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/mulan.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/mulan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/nemo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/filmes/nemo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/coraline.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/coraline2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/fota.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/gato.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/gato2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/logotipo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/mulan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/mulan2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/nemo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/imagens/nemo3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula03/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex004.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex005.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula04/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula04/aula04.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +23,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ex005.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -67,6 +32,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ex005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex005" />
+      <module name="aula04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ex005" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
